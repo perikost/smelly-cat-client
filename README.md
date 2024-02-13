@@ -2,6 +2,22 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
 
+## Configuration
+
+Before starting the app, create a environment.development.ts file in the `environments/` directory with the following structure:
+
+```
+export const environment = {
+    emailjs: {
+        serviceID: '',
+        templateID: '',
+        publicKey: ''
+    }
+};
+```
+
+This configuration file includes the keys necessary for `email.js` to work.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
