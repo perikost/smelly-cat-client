@@ -1,52 +1,55 @@
-<nav class="navbar navbar-expand-lg navbar-white bg-white">
-  <div class="container-fluid px-5">
-    <a class="navbar-brand" routerLink="/">
-      <img src="assets/img/logo.png" class="logo">
-    </a>
-
-    <div class="navbar-nav">
-      <div class="d-flex flex-wrap">
-        <a routerLink="/adopt" class="nav-link px-2">Adopt Kittens</a>
-        <a routerLink="/stories" class="nav-link px-2">Kitty Stories</a>
-        <a routerLink="/about" class="nav-link px-2">About Us</a>
-        <a routerLink="/blog" class="nav-link px-2">Blog</a>
-        <a routerLink="/" class="nav-link px-2">Contact</a>
-      </div>
-    </div>
-  </div>
-</nav>
-
-<!-- Divider -->
-<hr class="my-0">
-
-<div class="bg-light full-height">
-  <router-outlet></router-outlet>
-</div>
-<footer class="bg-black text-white">
-  <div>
-    <div class="row w-100 p-5">
-      <div class="col-lg-2 p-3 d-flex justify-content-center">
-        <img src="assets/img/logo-footer.png">
-      </div>
-
-      <div class="col-lg-8 p-3">
-        <div class="d-flex flex-wrap justify-content-center text-nowrap">
-          <div><a routerLink="" class="nav-link text-white px-5">Privacy Policy</a></div>
-          <div><a routerLink="" class="nav-link text-white px-5">Terms & Conditions</a></div>
-          <div><a routerLink="" class="nav-link text-white px-5">Blog</a></div>
-          <div><a routerLink="" class="nav-link text-white px-5">Support</a></div>
+<div class="full-height">
+  <nav class="navbar navbar-expand-lg navbar-white bg-white">
+    <div class="container-fluid px-5">
+      <a class="navbar-brand" routerLink="/">
+        <img src="assets/img/logo.png" class="logo">
+      </a>
+  
+      <div class="navbar-nav">
+        <div class="d-flex flex-wrap">
+          <a routerLink="/adopt" class="nav-link px-2">Adopt Kittens</a>
+          <a routerLink="/stories" class="nav-link px-2">Kitty Stories</a>
+          <a routerLink="/about" class="nav-link px-2">About Us</a>
+          <a routerLink="/blog" class="nav-link px-2">Blog</a>
+          <a routerLink="/" class="nav-link px-2">Contact</a>
         </div>
       </div>
+    </div>
+  </nav>
+  
+  <!-- Divider -->
+  <hr class="my-0">
+  
+  <div class="bg-light stretch">
+    <router-outlet></router-outlet>
+  </div>
 
-      <div class="col-lg-2 p-3 d-flex justify-content-center">
-        <a href=""><i class="text-white bi bi-discord px-3"></i></a>
-        <a href=""><i class="text-white bi bi-twitter px-3"></i></a>
-        <a href=""><i class="text-white bi bi-instagram px-3"></i></a>
+  <footer class="bg-black text-white">
+    <div>
+      <div class="row w-100 p-5">
+        <div class="col-lg-2 p-3 d-flex justify-content-center">
+          <img src="assets/img/logo-footer.png">
+        </div>
+  
+        <div class="col-lg-8 p-3">
+          <div class="d-flex flex-wrap justify-content-center text-nowrap">
+            <div><a routerLink="" class="nav-link text-white px-5">Privacy Policy</a></div>
+            <div><a routerLink="" class="nav-link text-white px-5">Terms & Conditions</a></div>
+            <div><a routerLink="" class="nav-link text-white px-5">Blog</a></div>
+            <div><a routerLink="" class="nav-link text-white px-5">Support</a></div>
+          </div>
+        </div>
+  
+        <div class="col-lg-2 p-3 d-flex justify-content-center">
+          <a href=""><i class="text-white bi bi-discord px-3"></i></a>
+          <a href=""><i class="text-white bi bi-twitter px-3"></i></a>
+          <a href=""><i class="text-white bi bi-instagram px-3"></i></a>
+        </div>
       </div>
     </div>
-  </div>
-
-  <div class="text-center pb-4">
-    <p>Copyright &copy; SmellyCat 2020</p>
-  </div>
-</footer>
+  
+    <div class="text-center pb-4">
+      <p>Copyright &copy; SmellyCat 2020</p>
+    </div>
+  </footer>
+</div>
