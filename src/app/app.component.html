@@ -4,15 +4,37 @@
       <a class="navbar-brand" routerLink="/">
         <img src="assets/img/logo.png" class="logo">
       </a>
-  
-      <div class="navbar-nav">
-        <div class="d-flex flex-wrap">
-          <a routerLink="/adopt" class="nav-link px-2">Adopt Kittens</a>
-          <a routerLink="/stories" class="nav-link px-2">Kitty Stories</a>
-          <a routerLink="/about" class="nav-link px-2">About Us</a>
-          <a routerLink="/blog" class="nav-link px-2">Blog</a>
-          <a routerLink="/" class="nav-link px-2">Contact</a>
-        </div>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a routerLink="/adopt" class="nav-link">Adopt Kittens</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/stories" class="nav-link">Kitty Stories</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/about" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/blog" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/" class="nav-link">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
